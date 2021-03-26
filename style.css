@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 139 ,44);
+}
+
+.pontuacao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+#pontuacao {
+    margin: 0 5px;
+}
