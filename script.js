@@ -67,6 +67,9 @@ function criarCobrinha() {
     context.lineTo(tamXDraw, tamYDraw);
     context.lineTo(posXDraw, tamYDraw);
     context.fill();
+    context.fillStyle = "lightgreen";
+    context.fillRect(snake[0].x + (box / 2) - 7, snake[0].y + (box / 2) - 7, 3, 3);
+    context.fillStyle = "green";
     for(i = 1; i < snake.length; i++) {
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
